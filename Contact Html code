@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.contact.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Contact Us</h2>
+    <form action="#" method="post">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="contact-container">
+    <h1>We'd love to hear from you!</h1>
+    <p>You can reach us via phone or email. Our team is here to assist you 7 days a week.</p>
+    <p class="phone-number">📞 +92 (319) 620-5024</p>
+  </div>
+    <div class="back-link">
+      <a href="home.html">← Back to Home</a>
+    </div>
+  </div>
+</body>
+</html>
