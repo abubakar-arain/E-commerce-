@@ -1,0 +1,80 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color:black;
+      height: 100px;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+h1{
+  align-items: center;
+  padding: 20px ;
+  justify-content: center;
+}
+    nav {
+      background-color: #362e2e;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.5rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 2rem;
+      gap: 1.5rem;
+    }
+
+    .card {
+      margin-bottom: 40px;
+      background-color: black;
+      border: 1px solid #ccc;
+      width: 200px;
+      padding: 1rem;
+      text-align: center;
+      border-radius: 5px;
+    }
+    .card,h3{
+      color: white;
+    }
+.btn {
+  background-color:white;
+  color:black;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 13px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+
+    footer {
+      padding-top: 20px;
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+ 
